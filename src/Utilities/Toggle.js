@@ -1,6 +1,7 @@
-import React, { Component } from 'react'
+import { Component } from 'react'
 
-export default class toggleRPC extends Component {
+//RPC is reusable portal component
+export default class Toggle extends Component {
   state = {
     on: false
   };
